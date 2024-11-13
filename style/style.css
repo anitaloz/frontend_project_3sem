@@ -3,10 +3,8 @@
     padding:0;
     box-sizing: border-box;
     font-family: Montserrat;
-    color:white;
     list-style: none;
     text-decoration: none;
-    /* background-color:black; */
 }
 body {
     margin: 0;
@@ -60,13 +58,18 @@ button {
     padding: 10px;
     height:60px;
     width:220px;
+    color:white;
     background-color: black;
 }
-  
+
+div.content{
+    color:white;
+}
 
 @media screen and (min-width: 600px) {
     #logo { margin-top:39px;}
- 
+    div.content.h1{
+    }
     
     header{
         height: 650px;
@@ -93,7 +96,6 @@ button {
     header div.cap nav ul li a{
         padding-left:10px;
         padding-right:10px;
-        color: white;
         font-size:12px;
         display:block;
     }
@@ -104,15 +106,12 @@ button {
     }
     div.advert1 h1{
         float:left;
-        color:white;
     }
     div.advert1{
-        color:white;
         border: 10px;
         border-color: chocolate;
     }
     div.ad{
-        
         margin-left: 130px;
         margin-right:130px;
         display:flex;
