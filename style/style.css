@@ -19,45 +19,25 @@ body {
     flex-direction: column;
 }
 
-.video-bg {
+header{
     min-height: 650px;
     max-height: 1000px;
     width: 100%;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     position: relative;
-}
-.video-bg video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    height:650px;
-    object-fit: cover;
-}
-.effects {
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    width: 100%;
-    background-color: rgba(0,0,0,0.6);
-}
-.video-bg__content {
-    z-index: 2;
-    display:flex;
-    flex-direction: column;
-    position: absolute;
-    top:0;
-    min-height: 650px;
-    max-height: fit-content;
-    width:100%;
-    margin:0;
     color:white;
-    background-color: rgba(0, 0, 0, 0.904);
+    background-color: rgba(0, 0, 0, 0.562);
+}
+header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1000;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
 }
 
 div.ad{
@@ -97,41 +77,11 @@ button {
 
 @media screen and (min-width: 600px) {
     #logo { margin-top:39px;}
-    .video-bg {
-        min-height: 650px;
-        max-height: 1000px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-    }
-    .video-bg__content {
-        z-index: 2;
-        display:block;
-    }
-    .video-bg video {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 1;
-        width: 100%;
-        min-height: 650px;
-        max-height: fit-content;
-        object-fit: cover;
-        margin:0;
-    }
-    
-    
     header div.cap{
         display:flex;
         justify-content:space-between;
         margin-left: 130px;
         margin-right:130px;
-    }
-    body{
-        /* margin-left:130px;
-        margin-right:130px; */
     }
     header div.cap nav{
         margin-top:39px;
