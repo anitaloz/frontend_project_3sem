@@ -56,6 +56,8 @@ div.ad div.second_trio{
 }
 .advert1{
     height:33%;
+    border:5px;
+    border-color: brown;
 }
 .advert{
     height:33%;
