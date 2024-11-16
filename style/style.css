@@ -109,6 +109,7 @@ button {
 }
 
 @media screen and (min-width: 770px) {
+    
     #logo { margin-top:39px;}
     header div.cap{
         display:flex;
@@ -170,6 +171,10 @@ button {
     }
     .header-center{
         display:flex;
+        margin:auto;
+        /* position:absolute;
+        left:10vw;
+        right: 10vw; */
         margin-top:135px;
     }
     div.adv{
@@ -251,6 +256,24 @@ button {
 
     
     
+
+}
+
+@media screen and (min-width: 950px) {
+    .header-center{
+        display:flex;
+        margin:auto;
+        padding-left: 150px;
+        padding-right:150px;
+        /* position:absolute;
+        left:10vw;
+        right: 10vw; */
+        margin-top:135px;
+    }
+    header div.cap{
+        display:flex;
+        padding-left: 150px;
+    }
 
 }
 @font-face {
