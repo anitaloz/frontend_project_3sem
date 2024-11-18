@@ -82,7 +82,7 @@ body {
 }
 
 header{
-    min-height: 650px;
+    min-height: 750px;
     width: 100%;
     display: block;
     justify-content: center;
@@ -282,6 +282,9 @@ button {
         margin-left:60px !important;
         padding-left:0 !important;
         padding-right:0 !important
+    }
+    header{
+        min-height:650px;
     }
     .header-center{
         display:flex;
