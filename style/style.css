@@ -22,9 +22,12 @@ div.adv h1{
     
 }
 div.adv p{
-    margin-top:15px;
+    margin-top:20px;
     padding-left:30px;
     padding-right:40px;
+}
+#tarif{
+    margin-top:35px;
 }
 div.cap #menu1{
     visibility: visible;
@@ -307,6 +310,9 @@ button {
         margin-top:15px;
         padding-left:0px;
         padding-right:0px;
+    }
+    #tarif{
+        margin-top:0px;
     }
     div.adv button{
         margin-top:55px;
