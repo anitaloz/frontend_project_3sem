@@ -259,7 +259,7 @@ button {
     .header-center{
         display:flex;
         margin:auto;
-        margin-top:135px;
+        margin-top:120px;
     }
     div.adv{
         /* margin-top:135px;
@@ -403,7 +403,7 @@ button {
         /* position:absolute;
         left:10vw;
         right: 10vw; */
-        margin-top:135px;
+        margin-top:120px;
     }
     header div.cap{
         display:flex;
