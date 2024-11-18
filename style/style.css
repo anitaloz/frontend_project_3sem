@@ -6,6 +6,20 @@
     list-style: none;
     text-decoration: none;
 }
+div.adv h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: revert;
+    font-size: 25px;
+    line-height: 60px;
+    /* or 115% */
+    display: flex;
+    align-items: center;
+    text-align:center;
+}
+div.adv p{
+    margin-top:15px;
+}
 div.cap #menu1{
     visibility: visible;
     opacity: 1;
@@ -272,11 +286,13 @@ button {
     div.adv h1{
         font-family: 'Montserrat';
         font-style: normal;
+        font-weight:1;
         font-size: 52px;
         line-height: 60px;
         /* or 115% */
         display: flex;
         align-items: center;
+        text-align:left;
     }
     div.adv p{
         margin-top:15px;
