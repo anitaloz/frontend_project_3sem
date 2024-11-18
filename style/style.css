@@ -111,10 +111,14 @@ div.ad div.first_trio{
     display:flex;
     flex-direction: column;
     max-width: 50%;
+    margin-top:40px;
+
 }
 div.ad div.second_trio{
     display:flex;
     flex-direction: column;
+    margin-top:40px;
+
 }
 .advert1{
     height:33%;
@@ -330,11 +334,13 @@ button {
         flex-direction: row;
         max-width: none;
         height:50%;
+        margin-top:0px;
     }
     div.ad div.second_trio{
         display:flex;
         flex-direction: row;
         height:50%;
+        margin-top:0px;
     }
     .advert1 p{
         margin-bottom: 0;
