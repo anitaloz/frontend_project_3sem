@@ -148,6 +148,9 @@ button {
     background-color: rgba(0, 0, 0, 0.315);
 }
 
+.cell2 img{
+    
+}
 @media screen and (min-width: 770px) {
     #logo { margin-top:39px;}
     
@@ -267,8 +270,13 @@ button {
         float:left;
     }
     div.adv h1{
-        font-size:52px;
-        font-weight:bolder;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: 52px;
+        line-height: 60px;
+        /* or 115% */
+        display: flex;
+        align-items: center;
     }
     div.adv p{
         margin-top:15px;
@@ -299,13 +307,28 @@ button {
         margin-bottom: 0;
     }
 
+    .content{
+        margin-left:130px;
+        margin-right:130px;
+    }
     /* Первое поле */
     div.first-space{
         background-color:white;
         color:black;
         margin-top: 100px;
-        margin-left:130px;
-        margin-right:130px;
+        /* margin-left:130px;
+        margin-right:130px; */
+    }
+    div.first-space p{
+        width: 493px;
+        height: 44px;
+        
+
+        /* text/16px */
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 22px;
     }
     div.first-space h1{
         max-width: 580px;
@@ -342,12 +365,36 @@ button {
         max-width: 194px;
     }
 
+    /* //Второе поле */
+    div.second-space{
+        margin-top:116px;
+        
+    }
+
+    div.second-space div.cells{
+        display:flex;
+        flex-direction: column;
+    }
+    div.second-space div.cells div.first-quatro{
+        display:flex;
+        flex-direction: row;
+    }
+    div.second-space div.cells div.second-quatro{
+        display:flex;
+        flex-direction: row;
+    }
+    .cell2{
+        width:25%;
+    }
+
+
+
 
     
     
 
 }
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 1000px) {
     .header-center{
         display:flex;
         margin:auto;
