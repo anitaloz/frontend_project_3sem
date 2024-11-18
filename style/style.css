@@ -450,6 +450,8 @@ button {
     header div.cap{
         display:flex;
         padding-left: 150px;
+        padding-right:150px;
+
     }
 
 }
