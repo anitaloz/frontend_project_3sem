@@ -6,7 +6,48 @@
     list-style: none;
     text-decoration: none;
 }
+div.cap #menu1{
+    visibility: visible;
+    opacity: 1;
+    float:right;
+    margin-right:10px;
+    cursor:pointer;
+    
+}
+div.cap nav ul li #adm2{
+    visibility: visible;
+    opacity: 1;
+    margin-right:10px;
+    color:#fffffe;
+    text-align:center;
+    cursor:pointer;
+    
+}
 
+div.cap #menu{
+    display:none;
+}
+div.cap .navbar a{
+    display: block;
+    margin: 0.1rem 0;
+    font-size: 0.8rem;
+    text-align:center;
+    width:90vw;
+    background-color:#354a5fb5;
+    padding:10px;
+    color:aliceblue;
+    
+}
+div.cap #adm{
+    display:none;
+}
+div.cap #menu:checked ~ .navbar{
+    transform: scale(0);
+    display:none;
+}
+div.cap nav ul li #adm:checked ~ .navbar2{
+    display:none;
+}
 body {
     margin: 0;
     padding: 0;
@@ -54,18 +95,17 @@ div.ad div.second_trio{
 }
 .advert1{
     height:33%;
-    border-left:5px solid rgb(255, 145, 0);
+    border-left:5px solid #F14D34;
     padding-bottom: 5px;
     font-size: 12px;
 }
 .advert{
     height:33%;
-    border-left:5px solid rgb(255, 145, 0);
+    border-left:5px solid #F14D34;
     font-size: 12px;
 }
 div.advert1 h1{
         float:left;
-        
     }
 /* Первое поле */
 div.first_space{
@@ -109,8 +149,49 @@ button {
 }
 
 @media screen and (min-width: 770px) {
-    
     #logo { margin-top:39px;}
+    
+    div.cap #menu:checked ~ .navbar{
+        transform: scale(1);
+        display:block;
+    }
+    div.cap nav ul li #adm:checked ~ .navbar2{
+        display:block;
+        visibility:hidden;
+    }
+    
+    div.cap .navbar a{
+        font-size: 0.8rem;
+        margin-left: 1rem;
+        color: #fff;
+        transition: 0.5s;
+        width:auto;
+        margin:0px;
+        padding-top:0;
+        padding-bottom:0;
+        background-color:#00000000;
+
+    }
+    div.cap nav ul li #adm2{
+        margin-bottom:0;
+    }
+
+
+    div.cap #menu{
+        display: none;
+    }
+    
+    div.cap #menu1{
+        font-size: 0rem;
+        color:var(--blue);
+        cursor: pointer;
+        visibility: hidden;
+        opacity:0;
+    }
+    div.cap ul li #adm2{
+        font-size:16px;
+        margin-top:-4px;
+    }
     header div.cap{
         display:flex;
     }
@@ -130,8 +211,10 @@ button {
     header div.cap nav ul li ul{
         position:absolute;
         left:0;
+        /* margin-top:-9px; */
         display:none;
         background-color:#F14D34;
+        z-index:1;
     }
     header div.cap nav ul li p{
         margin-bottom:0;
@@ -150,20 +233,21 @@ button {
         margin-right: 15px;
     }
     
-    header div.cap nav ul li ul li a:hover{
-        background-color: rgb(173, 46, 0);
+    header div.cap nav ul li ul li:hover{
+        background-color: rgb(0 14 173);
         text-decoration: none;
     }
-    header div.cap nav ul li a{
+    header div.cap nav ul li label1{
         margin-left:15px;
         margin-right:15px;
-        font-size:12px;
+        font-size:18px;
+        margin-top:4px;
         font-family: Ubuntu;
-        color:white;
+        color:#ffffff;
         display:block;
     }
     .drupal-support-menu{
-        border-bottom:3px solid #F14D34;
+        border-bottom:3px solid #e13800;
         margin-right:10px;
         margin-left:60px !important;
         padding-left:0 !important;
@@ -172,9 +256,6 @@ button {
     .header-center{
         display:flex;
         margin:auto;
-        /* position:absolute;
-        left:10vw;
-        right: 10vw; */
         margin-top:135px;
     }
     div.adv{
@@ -226,6 +307,14 @@ button {
         margin-left:130px;
         margin-right:130px;
     }
+    div.first-space h1{
+        max-width: 580px;
+        height: 153px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: 42px;
+        line-height: 51px;
+    }
     div.first-space div.cells {
         display:flex;
         flex-direction: column;
@@ -244,10 +333,10 @@ button {
     }
     .cell{
         padding-left:0;
-        padding-right:100px;
+        margin:auto;
         padding-top: 25px;
         padding-bottom: 0;
-        height:182px;
+        min-height:182px;
     }
     .cell p{
         max-width: 194px;
@@ -258,7 +347,6 @@ button {
     
 
 }
-
 @media screen and (min-width: 950px) {
     .header-center{
         display:flex;

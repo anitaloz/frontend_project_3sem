@@ -14,19 +14,23 @@
     <title>Project</title>
 </head>
 <body>
-    <div class="page container-fluid px-sm-0">
+    <div class="page px-sm-0">
     <header>
         <video src="img/video.mp4" type="video/mp4" autoplay muted loop></video>
+        
         <div class="cap">
             <img id="logo" src="img/drupal-coder.svg" weight="140" height="20">
-            <nav>
+            <input type="checkbox" name="menu" id="menu">
+            <label for="menu" id="menu1">menuu</label>
+            <nav class="navbar">
                 <ul>
                     <li>
                         <a class="drupal-support-menu" href="menu/drupalsupport.html">ПОДДЕРЖКА DRUPAL</a>
                     </li>
                     <li>
-                        <a href=""> АДМИНИСТРИРОВАНИЕ &bigtriangledown;</a>
-                        <ul>
+                        <input type="checkbox" name="adm" id="adm">
+                        <a><label for="adm" id="adm2">администрирование</label></a>
+                        <ul class="navbar2">
                             <li><a href=""> МИГРАЦИЯ</a></li>
                             <li><a href="">БЭКАПЫ</a></li>
                             <li><a href="">АУДИТ БЕЗОПАСНОСТИ</a></li>
@@ -52,7 +56,7 @@
                 </ul>
             </nav>
         </div>
-        <div class="header-center container-fluid pr-sm-10">
+        <div class="header-center">
             <div class="adv">
                 <h1> Поддержка сайтов на Drupal</h1>
                 <p>Сопровождение и поддержка сайтов на CMS Drupal любых версий запущенности</p>
