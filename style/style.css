@@ -434,10 +434,19 @@ button {
         margin-top:116px;
         
     }
+    div.second-space h1{
+        text-align: center;
+        width:406px;
+        margin:0 auto;
+        font-weight: bold;
+    }
 
     div.second-space div.cells{
         display:flex;
         flex-direction: column;
+        margin:-26px;
+        margin-top:56px;
+        margin-bottom:169px;
     }
     div.second-space div.cells div.first-quatro{
         display:flex;
@@ -452,7 +461,7 @@ button {
         height: 292px;
         min-width: 25%;
         position:relative;
-        padding:15px;
+        padding:5px;
     }
     .cell2 img{
         position:absolute;
@@ -461,7 +470,21 @@ button {
         z-index:-1000;
     }
     .cell2 p{
+        
+        padding-left:26px;
+        margin:0;
         z-index:1;
+        font-size:16px;
+    }
+
+    .cell2 h2{
+        font-size:18px;
+        font-weight: bold;
+        padding:26px;
+        padding-top:20px;
+        padding-bottom:20px;
+        margin:0;
+        text-align: left;
     }
 
 
