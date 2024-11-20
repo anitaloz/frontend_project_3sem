@@ -127,6 +127,7 @@ header video {
 }
 div.adv h1{
     padding-top: 30px;
+    margin-top:0px;
 }
 div.ad{
     display:flex;
