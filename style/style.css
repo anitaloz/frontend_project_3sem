@@ -6,6 +6,9 @@
     list-style: none;
     text-decoration: none;
 }
+html{
+    width:100%;
+}
 div.adv{
     text-align:center;
 }
@@ -46,7 +49,7 @@ div.adv p{
     width: 100%;
     z-index: 100;
     display: flex;
-    padding: 0rem 0;
+    padding:0;
 }
 .logo-menu{
     background-color: #0c0c0c;
@@ -132,6 +135,7 @@ div.ad{
     display:flex;
     flex-direction: row;
     margin-top:20px;
+    padding-left: 15px;
 }
 div.ad div.first_trio{
     display:flex;
@@ -163,6 +167,9 @@ div.ad div.second_trio{
     margin-bottom:15px;
     width:80%;
 }
+header h1{
+    font-size:30px;
+}
 div.advert1 h1{
         float:left;
     }
@@ -170,6 +177,11 @@ div.advert1 h1{
 div.first_space{
     background-color:rgba(255, 255, 255, 0);
     color:black;
+}
+
+div.first-space h1{
+    margin-top:10%;
+    font-size: 30px;
 }
 div.first-space div.cells {
     display:flex;
@@ -212,14 +224,14 @@ button {
     height:1500px;
     overflow:hidden;
     position:absolute;
-    top:3750px;
+    top:3330px;
 }
 
 .ghost{
     width:100%;
     z-index:0;
     position:absolute;
-    top:3000px;
+    top:3500px;
 
 }
 
@@ -229,8 +241,8 @@ button {
     background: linear-gradient(
         180.0deg,
         #ffffff 10.9019%,
-        #acacac2f 60.57%,
-        #9b9b9b00 100%
+        #94949434 60.57%,
+        #9b9b9b23 90%
     );
     z-index:-1000;
 }
@@ -349,7 +361,7 @@ div.second-space h1{
 
 .forth-space{
     background-color: #ffffff;
-    background-image: url(img/D.png);
+    background-image: url(../img/tarifs.png);
     background-position: right;
     background-size: 700%;
 }
@@ -361,8 +373,8 @@ div.second-space h1{
 .forth-space a{
     color:black;
     text-decoration: underline;
-    margin:0 auto;
-    margin-bottom:40px;
+    margin:28%;
+    padding-bottom:10%;
     text-align: center;
     font-size:16px;
 }
@@ -425,6 +437,203 @@ div.tarif-adv img{
     background-color: rgba(241, 77, 52, 1);
     color:#ffffff;
 }
+
+#fifth-space-text{
+    margin-top: 30px;
+    margin-bottom:30px;
+    font-size: 25px;
+    width:100%;
+    text-align: left;
+    font-weight:bold;
+    max-width:800px;
+}
+
+h1 {
+    font-weight:bold;
+}
+
+.fifth-advert{
+    text-align: center;
+    margin: 0 auto;
+    max-width: fit-content;
+}
+
+.fifth-adv{
+    margin:30px auto;
+    max-width: 300px;
+}
+
+#teams-text{
+    margin:0 auto;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.team{
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.team-members{
+    width:50%;
+    padding:15px;
+}
+
+.team-members img{
+    width:100%;
+}
+.team-members h2{
+    font-size:16px;
+    font-weight: bold;
+    margin-top:14px;
+    margin-bottom:14px;
+}
+
+.team-members p{
+    font-size: 12px;
+}
+
+div.sixth-space button{
+    margin-bottom:30px;
+    margin-top:30px;
+    background-color: white;
+    color:black;
+    width:50%;
+    font-size: 12px;
+    border:2px solid black;
+    border-radius: 5px;
+}
+
+
+
+/* СЕДЬМОЕ ПОЛЕ */
+
+
+.seventh-space{
+    margin-top:10%;
+}
+.seventh-space h1{
+    font-size:30px;
+    margin-top:20px;
+    text-align: center;
+
+}
+.seventh-space a{
+    color:#0c0c0c;
+}
+.seventh-space a:hover{
+    text-decoration: underline;
+}
+
+.first-case{
+    margin-top:10px;
+    border-radius: 5px;
+    margin-bottom:10px;
+}
+.first-case img{
+    width:100%;
+    object-fit: cover;
+    height:150px;
+    border-radius: 5px;
+}
+.fifth-case{
+    margin-top:10px;
+    border-radius: 5px;
+    margin-bottom:30px;
+}
+.fifth-case img{
+    width:100%;
+    object-fit: cover;
+    height:150px;
+    border-radius: 5px;
+}
+.seventh-space h2{
+    padding-top:15px;
+    font-size:18px;
+    font-weight: bold;
+}
+.date{
+    font-size:10px;
+    margin-bottom: 5px;
+}
+
+.seventh-space p {
+    font-size:12px;
+}
+
+.second-case{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.second-case img{
+    width:100%;
+    object-fit: cover;
+    height:250px;
+    border-radius: 5px;
+    position:relative;
+}
+.second-case h2{
+    position:absolute;
+    bottom:15px;
+    color: white;
+    padding-left: 15px;
+}
+
+.third-case{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.third-case img{
+    width:100%;
+    object-fit: cover;
+    height:250px;
+    border-radius: 5px;
+    position:relative;
+}
+.third-case h2{
+    position:absolute;
+    bottom:40px;
+    color: white;
+    padding-left: 15px;
+}
+.third-case p{
+    position:absolute;
+    bottom:10px;
+    color: rgb(105, 105, 105);
+    padding-left: 15px;
+}
+
+.forth-case{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.forth-case img{
+    width:100%;
+    object-fit: fill;
+    height:250px;
+    border-radius: 5px;
+    position:relative;
+}
+.forth-case h2{
+    position:absolute;
+    bottom:40px;
+    color: white;
+    padding-left: 15px;
+    max-width: 350px;
+}
+.forth-case p{
+    position:absolute;
+    bottom:10px;
+    color: rgb(105, 105, 105);
+    padding-left: 15px;
+}
+#last-href-case{
+    color:rgb(0, 135, 189)
+}
+
+
+
 @media screen and (min-width: 800px) {
     #logo { 
         margin-top:0px;
@@ -862,6 +1071,164 @@ div.tarif-adv img{
         padding-left: 250px;
         padding-right:250px;
     }
+    .fifth-adv{
+        text-align: left;
+        margin-left:0;
+        max-width: 230px;
+    }
+    #fifth-space-text{
+        font-size: 42px;
+    }
+    .fifth-space{
+        padding-left:15%;
+        padding-right:15%;
+    }
+    .team{
+        width:fit-content;
+        margin:auto;
+        margin-top:0;
+        margin-bottom:0;
+        padding-left:0;
+        padding-right:0;
+
+    }
+    .team-members img{
+        width:fit-content;
+    }
+    .team-members{
+        max-width:280px;
+        margin:30px;
+    }
+    .team-members h2{
+        width:fit-content;
+        font-size: 20px;
+    }
+    .team-members p{
+        width: 280px;
+        font-size: 16px;
+
+    }
+    .fifth-advert{
+        text-align: center;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .sixth-space{
+        padding-left: 18%;
+        padding-right: 18%;
+    }
+    div.sixth-space button{
+        padding:20px;
+        margin:30%;
+        margin-bottom:30px;
+        margin-top:30px;
+        background-color: white;
+        width:350px;
+        border-radius: 5px;
+        font-size:16px;
+    }
+
+    .seventh-space{
+        padding-left: 15%;
+        padding-right: 15%;
+
+    }
+
+
+
+
+
+
+
+    
+    .first-case{
+       padding-left:10px;
+       padding-right:10px;
+        max-height:409px;
+    }
+    .second-case{
+        padding-left:10px;
+       padding-right:10px;
+        max-height:409px;
+    }
+    .second-case img{
+        width:100%;
+        object-fit:fill;
+        height:100%;
+        border-radius: 5px;
+        position:relative;
+    }
+
+    .first-case h2{
+        margin-top:12%;
+        margin-left:10%;
+        margin-right:10%;
+    }
+
+    .first-case p{
+        margin-left:10%;
+        margin-right:10%;
+    }
+    .second-case h2{
+        bottom:50px;
+    }
+    .third-case{
+        padding-left:10px;
+       padding-right:10px;
+        max-height:409px;
+    }
+    .third-case img{
+        width:100%;
+        object-fit: cover;
+        height:100%;
+        border-radius: 5px;
+        position:relative;
+    }
+    .third-case h2{
+        position:absolute;
+        bottom:40px;
+        color: white;
+        padding-left: 15px;
+        width:90%;
+    }
+    .forth-case{
+        padding-left:10px;
+       padding-right:10px;
+        max-height:409px;
+    }
+    .forth-case img{
+        width:100%;
+        object-fit: cover;
+        height:100%;
+        border-radius: 5px;
+        position:relative;
+    }
+    .forth-case h2{
+        position:absolute;
+        bottom:40px;
+        color: white;
+        padding-left: 15px;
+        width:90%;
+    }
+
+    .fifth-case{
+        padding-left:10px;
+       padding-right:10px;
+        max-height:409px;
+    }
+    .fifth-case h2{
+        margin-top:12%;
+        margin-left:10%;
+        margin-right:10%;
+    }
+
+    .fifth-case p{
+        margin-left:10%;
+        margin-right:10%;
+    }
+
+
 
 }
 
