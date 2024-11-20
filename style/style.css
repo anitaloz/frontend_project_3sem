@@ -40,33 +40,45 @@ div.adv p{
     cursor:pointer;
     margin-top:10px;
 }
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    padding: 0rem 0;
+}
 .logo-menu{
     background-color: #0c0c0c;
-    height: 40px;
+    width: 100%;
 }
 #menu{
     display:none;
 }
-div.cap .navbar a{
+.navbar a{
     display: block;
     /* margin: 1px; */
     font-size: 0.8rem;
     text-align:left;
     /* background-color:#0c0c0c; */
     padding:10px;
-    color:aliceblue;
-    
+    color:aliceblue;  
+}
+.m{
+    display: none;
 }
 div.cap ul 
 {
     width:100%;
+    margin-bottom: 0rem;
 }
 div.cap nav{
     width:100%;
 }
 div.cap ul li{
     background-color: #0c0c0c;
-    margin: 2px;
+    margin: 0.8px;
 }
 
 .navbar2 li{
@@ -77,11 +89,11 @@ div.cap ul li{
     background-color: #0c0c0c;
 }
 #admin{
-    background: none;;
+    background: unset;
 }
-#menu:checked ~ .navbar{
-    transform: scale(0);
-    display:none;
+#menu:checked ~ ul{
+    transform: scale(1);
+    display:block;
 }
 
 body {
@@ -113,8 +125,9 @@ header video {
     height:100%;
     object-fit: cover;
 }
-
-
+div.adv h1{
+    padding-top: 30px;
+}
 div.ad{
     display:flex;
     flex-direction: row;
@@ -413,20 +426,38 @@ div.tarif-adv img{
     color:#ffffff;
 }
 @media screen and (min-width: 800px) {
-    #logo { margin-top:39px;}
-    .navbar{
-        padding:0;
+    #logo { 
+        margin-top:0px;
+        position:absolute;
+        top:0;
+        display:block;
     }
-    div.cap #menu:checked ~ .navbar{
+    #menu:checked ~ ul{
         transform: scale(1);
         display:block;
-        padding:0;
     }
-    div.cap nav ul li #adm:checked ~ .navbar2{
+    #admin1{
+        background-color:#00000000;
+    }
+    .navbar{
+        padding:0px;
+        overflow: visible;
+        position:relative;
+        top: 0;
+        width: 100%;
+        z-index: 100;
         display:block;
-        visibility:hidden;
+    }
+    div.cap nav ul li{
+        background-color:#00000000;
+    }
+    .logo-menu{
+        background-color:#00000000;
     }
     
+    div.cap ul{
+        display:block;
+    }
     div.cap .navbar a{
         font-size: 0.8rem;
         margin-left: 1rem;
@@ -436,9 +467,10 @@ div.tarif-adv img{
         margin:0px;
         padding-top:0;
         padding-bottom:0;
-        padding-left: 50px;
-        padding-right:50px;
+        padding-left: 20px;
+        padding-right:20px;
         background-color:#00000000;
+        display: block;
 
     }
     div.cap nav ul li #adm2{
@@ -456,10 +488,6 @@ div.tarif-adv img{
         cursor: pointer;
         visibility: hidden;
         opacity:0;
-    }
-    div.cap ul li #adm2{
-        font-size:16px;
-        margin-top:-4px;
     }
     header div.cap{
         display:flex;
@@ -510,7 +538,7 @@ div.tarif-adv img{
     .drupal-support-menu{
         border-bottom:3px solid #e13800;
         margin-right:10px;
-        margin-left:60px !important;
+        margin-left:170px !important;
         padding-left:0 !important;
         padding-right:0 !important
     }
