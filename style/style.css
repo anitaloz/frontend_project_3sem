@@ -794,6 +794,7 @@ div.num{
     }
     div.cap{
         margin-left:8%;
+        padding:0;
     }
     header{
         min-height:650px;
@@ -1317,8 +1318,8 @@ div.num{
     }
     header div.cap{
         display:flex;
-        padding-left: 8.3%;
-        padding-right:8.3%;
+        margin-left: 8.3%;
+        margin-right:8.3%;
         
     }
     .third-space .first-duo{
