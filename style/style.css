@@ -1014,7 +1014,7 @@ div.sixth-space button{
         margin-bottom:25px;
     }
     
-    .forth-space{
+     .forth-space{
         margin-top: 150px;
         background-position: center;;
         background-size: 100%;
@@ -1031,6 +1031,7 @@ div.sixth-space button{
 
     div.tarif-adv button{
         margin-top:10%;
+        padding:5%
     }
     div.tarif-adv{
         margin:0 auto;
@@ -1056,6 +1057,7 @@ div.sixth-space button{
     }
     #t2 button{
         margin-top:35%;
+        padding:0px;
     }
 
     #t3{
