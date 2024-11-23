@@ -634,6 +634,67 @@ div.sixth-space button{
     color:rgb(0, 135, 189)
 }
 
+
+.eigth-space1 .text{
+    padding-left:15px;
+    text-align: left;
+    margin-top:10%;
+}
+
+.eigth-space1 .text h1{
+    font-size:30px;
+}
+
+.slick-track{
+    display: flex;
+    overflow:hidden;
+}
+
+
+.slider{
+    border-color:#000000;
+    max-height: 160px;
+    margin-top:0;
+    margin-bottom:0;
+    overflow:hidden;
+}
+.slider2{
+    border-color:#000000;
+    max-height: 160px;
+    margin-top:0;
+    margin-bottom:0;
+    overflow:hidden;
+}
+.slider_item{
+    background-color: white;
+}
+
+.i1{
+
+    border:1px solid #c5c4c4;
+    border-radius:5px;
+    width:95%;
+    height:90%;
+    text-align: center;
+}
+.i1 img{
+    max-width:100%;
+    min-height:100%;
+    padding-top:10%;
+    padding-bottom:10%;
+    padding-left:15%;
+    padding-right:15%;
+}
+
+.eigth-space2 .slider2 .slick-track{
+    padding-left: 50%;
+    overflow: hidden;
+}
+
+
+
+
+
 .FAQ{
     height:fit-content;
 }
@@ -1188,6 +1249,11 @@ div.num{
         padding-right:0;
 
     }
+    #teams-text{
+        max-width:200px;
+        margin:0 auto;
+        margin-left:35.5%;
+    }
     .team-members img{
         width:fit-content;
     }
@@ -1350,6 +1416,22 @@ div.num{
     }
 
 
+    .eigth-space1 .text{
+        padding-left:0px;
+        text-align: center;
+        max-width: 50%;
+        margin:0 auto;
+        margin-top:10%;
+    }
+
+    .eigth-space1 .text h1{
+        text-align: center;
+    }
+    .eigth-space1 .text p{
+        text-align: center;
+    }
+
+
 
 }
 
@@ -1390,6 +1472,20 @@ div.num{
         flex-direction: row;
         padding-left: 20%;
         padding-right:20%;
+    }
+
+
+    .eigth-space2 .text{
+        padding-left:0px;
+        text-align: center;
+        margin:0 auto;
+    }
+
+    .eigth-space2 .text h1{
+        text-align: center;
+    }
+    .eigth-space2 .text p{
+        text-align: center;
     }
 
 }
