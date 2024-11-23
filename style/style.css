@@ -673,6 +673,54 @@ div.num{
     font-size:14px;
 }
 
+.bottom{
+    background: url(../img/footer-bg.png) no-repeat center/cover;
+    width: 100%;
+}
+.b-form label, .input-field{
+    width: 100%;
+}
+.input-field{
+    background-color: #ffffff00;
+    border-color:#d7d7d7;
+    border-radius: 5px;
+    padding: 5%;
+}
+.b-footer h2{
+    color: white;
+}
+.bottom p{
+    color: #9f9e9e;
+    font-size:10pt;
+}
+.bottom label{
+    color: white;
+}
+.b-footer h1{
+    color:white;
+    font-size: 14pt;
+    text-decoration: underline;
+}
+.input-field{
+    color:white;
+}
+#telephone{
+    margin-top: 10vw;
+}
+
+.footer-body{
+    font-size: 10pt;
+}
+.footer-body p{
+    font-size: 10pt;
+    margin-bottom:0px;
+    color: #9f9e9e;
+}
+
+.b-bottom{
+    border-top:1px solid #9f9e9e;
+}
+
 
 
 @media screen and (min-width: 800px) {

@@ -1,5 +1,5 @@
 .bottom{
-    background: url(../img/black_square_support.png) no-repeat center center/cover;
+    background: url(../img/footer-bg.png) no-repeat center center/cover;
     width: 100%;
 }
 .b-form label, .input-field{
@@ -42,10 +42,14 @@
     color: #9f9e9e;
 }
 
+.b-bottom{
+    border-top:1px solid #9f9e9e;
+}
 
 .slick-track{
     display: flex;
     min-width:0;
+    overflow:hidden;
 }
 
 

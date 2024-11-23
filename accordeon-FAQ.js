@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
  // "Аккордион".
     let cell = document.getElementsByClassName("accordion-cell")[0];
     let text= document.getElementsByClassName("accordion-text")[0];
