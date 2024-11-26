@@ -782,7 +782,9 @@ div.num{
     font-size:24px;
     font-weight: 700;
 }
-
+.b-footer{
+    padding-bottom: 15px;
+}
 .footer-body{
     font-size: 10pt;
 }
