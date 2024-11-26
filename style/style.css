@@ -793,7 +793,20 @@ div.num{
     border-top:1px solid #9f9e9e;
 }
 
-
+.footer-body ul li img{
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+}
+.footer-body ul li{
+    background-color: #F14D34;
+    border-radius: 8px;
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+    margin: 2px;
+    list-style-type:none ;
+}
 
 @media screen and (min-width: 800px) {
     #logo { 
