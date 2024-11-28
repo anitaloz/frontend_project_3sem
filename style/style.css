@@ -727,8 +727,11 @@ div.sixth-space button{
 }
 
 .active {
+    border: 2px solid rgb(247, 103, 78);
+}
+.active-acc-text{
     color: red;
-  }
+}
 
 .accordion-cell{
     position:relative;
