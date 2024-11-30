@@ -1652,7 +1652,7 @@ div.num{
     border-bottom: 2px solid #dfdede;
 }
 .b-slider .slick-arrow.slick-prev {
-    background: url('img/arrow-left.svg') no-repeat center;
+    background: url('/style/arrow/arrow-left.jpg') no-repeat center;
     background-size: contain;
     width: 16px;
     height: 50px;
@@ -1662,7 +1662,7 @@ div.num{
     outline: none;
 }
 .b-slider .slick-arrow.slick-next {
-    background: url('img/arrow-right.svg') no-repeat center;
+    background: url('/style/arrow/arrow-right.jpg') no-repeat center;
     background-size: contain;
     width: 16px;
     height: 50px;
