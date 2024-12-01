@@ -74,6 +74,4 @@ $(document).ready(function () {
         }
         num.innerHTML = '0' + n;
     });
-
-    document.getElementByClass(".slick-arrow.slick-next")
 });
