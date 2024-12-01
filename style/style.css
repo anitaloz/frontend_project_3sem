@@ -708,6 +708,7 @@ div.sixth-space button{
 
 .FAQ{
     height:fit-content;
+    margin-bottom:10%;
 }
 .FAQ p{
     padding-left:20px;
@@ -1441,6 +1442,7 @@ div.num{
     .FAQ{
         width:65%;
         margin:0 auto;
+        margin-bottom:5%;
     }
     .FAQ h1{
         font-size: 30px;
