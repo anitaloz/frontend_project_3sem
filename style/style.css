@@ -1722,6 +1722,8 @@ div.num{
 .slide-body{
     font-weight:bold;
     font-family: "M";
+    line-height:20px;
+    font-size:15px;
 }
 .b-slider span.slide-num{
     font-size: 28px;
