@@ -1714,6 +1714,8 @@ div.num{
 .slide-bot{
     color:#6f6f6f;
     margin-top:4%;
+    line-height:17px;
+    font-size:14px;
 }
 .slide-bot a{
     color:#343131;
