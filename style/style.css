@@ -1699,11 +1699,14 @@ div.num{
     font-weight:normal;
 
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1200px) {
     .b-slider .slide {
         border-bottom: 0px;
         border-right: 2px solid #dfdede;
     }
+}
+@media screen and (min-width: 768px){
+
     .b-slider{
         background-color: rgb(255, 255, 255);
         border-radius: 8px;
