@@ -90,10 +90,20 @@ div.cap ul li{
     padding-left:25px;
     background-color: none;
 }
+.navbar3 li{
+    padding-left:25px;
+    background-color: none;
+}
 #admin1{
     background-color: #0c0c0c;
 }
+#about_us2{
+    background-color: #0c0c0c;
+}
 #admin{
+    background: unset;
+}
+#about_us1{
     background: unset;
 }
 #menu:checked ~ ul{
@@ -832,6 +842,25 @@ div.num{
     #admin1{
         background-color:#00000000;
     }
+    #about_us2{
+        background-color:#00000000;
+    }
+    .navbar3{
+        margin-left:20px;
+
+    }
+    .navbar2 li{
+        padding-left:10px;
+        padding-top:5px;
+    }
+
+    .navbar3 li{
+        padding-left:10px;
+        padding-top:5px;
+    }
+    .navbar2{
+        margin-left:20px;
+    }
     .navbar{
         padding:0px;
         overflow: visible;
@@ -850,6 +879,7 @@ div.num{
     
     div.cap ul{
         display:block;
+        width:unset;
     }
     div.cap .navbar a{
         font-size: 0.8rem;
