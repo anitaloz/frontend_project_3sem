@@ -505,6 +505,7 @@ h1 {
 }
 
 div.sixth-space button{
+    margin-left:25%;
     margin-bottom:30px;
     margin-top:30px;
     background-color: white;
@@ -1322,6 +1323,7 @@ div.num{
         padding-right: 14%;
     }
     div.sixth-space button{
+        margin-left:0;
         padding:20px;
         margin:30%;
         margin-bottom:30px;
@@ -1850,6 +1852,6 @@ div.num{
 
     border: 1px solid transparent;
 }
-.b-slider .slick-arrow.slick-hidden {
+/* .b-slider .slick-arrow.slick-hidden {
     display: none;
-}
+} */
