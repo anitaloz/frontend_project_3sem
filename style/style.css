@@ -1319,6 +1319,8 @@ div.num{
     .tarifs-advert{
         display:flex;
         flex-direction: row;
+        max-width:1130px;
+        margin:auto;
     }
     .fifth-adv{
         text-align: left;
@@ -1573,8 +1575,6 @@ div.num{
     .tarifs-advert{
         display:flex;
         flex-direction: row;
-        padding-left: 20%;
-        padding-right:20%;
     }
     .third-space img{
         position:absolute;
