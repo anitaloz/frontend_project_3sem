@@ -1330,8 +1330,8 @@ div.num{
         margin-top:15%;
     }
     .fifth-space{
-        padding-left:18%;
-        padding-right:18%;
+        max-width: 1220px;
+        margin:auto;
     }
     .team{
         width:fit-content;
@@ -1377,7 +1377,7 @@ div.num{
     div.sixth-space button{
         margin-left:0;
         padding:20px;
-        margin:30%;
+        margin-left:17%;
         margin-bottom:30px;
         margin-top:30px;
         background-color: white;
@@ -1585,6 +1585,9 @@ div.num{
         order:0;
         width:660px;
         margin:0;
+    }
+    div.sixth-space button{
+        margin-left:30%;
     }
 
     .eigth-space2 .text{
