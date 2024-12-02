@@ -884,7 +884,26 @@ div.num{
     .logo-menu{
         background-color:#00000000;
     }
-    
+    div.cap ul li a{
+        position: relative;
+        color: #ff6a00;
+        cursor: pointer;
+        line-height: 1;
+        text-decoration: none;
+    }
+    div.cap ul li a:after{
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: #f40d0d;
+        content: "";
+        transition: width 0.3s ease-out;
+    }
+    div.cap ul li a:hover:after, div.cap ul li a:focus:after{
+        width: 100%;
+    }
     div.cap ul{
         display:block;
         width:unset;
