@@ -66,7 +66,7 @@ div.adv p{
     text-align:left;
     /* background-color:#0c0c0c; */
     padding:10px;
-    color:aliceblue;  
+    color:rgb(224, 224, 224);  
 }
 .m{
     display: none;
@@ -131,6 +131,9 @@ header{
     color:white;
     background-color: rgba(0, 0, 0, 0.795);
 }
+header p{
+    color:rgba(204, 204, 204);
+}
 header video {
     position: absolute;
     top: 0;
@@ -169,6 +172,7 @@ div.ad div.second_trio{
     border-left:5px solid #F14D34;
     /* padding-bottom: 5px; */
     padding:10px;
+    padding-top:0;
     font-size: 12px;
     margin-bottom:15px;
     width:80%;
@@ -180,6 +184,7 @@ div.ad div.second_trio{
     font-size: 12px;
     margin-bottom:15px;
     width:80%;
+    padding-top:0;
 }
 header h1{
     font-size:30px;
@@ -884,7 +889,7 @@ div.num{
     div.cap .navbar a{
         font-size: 0.8rem;
         margin-left: 1rem;
-        color: #fff;
+        color: rgb(204, 204, 204);
         transition: 0.5s;
         width:auto;
         margin:0px;
@@ -1015,7 +1020,7 @@ div.num{
         /* margin-right:130px; */
         display:flex;
         flex-direction: column;
-        /* margin-top:170px; */
+        margin-top:5%;
         /* max-width: 593px; */
     }
     div.ad div.first_trio{
@@ -1031,6 +1036,15 @@ div.num{
         flex-direction: row;
         height:50%;
         margin-top:0px;
+    }
+    .advert1 img{
+        position:absolute;
+        top:-13%;
+        left:30%;
+
+    }
+    div.advert1 h1{
+        float:none;
     }
     .advert1{
         height:100%;
@@ -1520,7 +1534,7 @@ div.num{
         /* position:absolute;
         left:10vw;
         right: 10vw; */
-        margin-top:120px;
+        margin-top:3%;
     }
     header div.cap{
         display:flex;
@@ -1737,6 +1751,19 @@ div.num{
     .b-slider .slide {
         border-bottom: 0px;
         border-right: 2px solid #dfdede;
+    }
+    .advert1 img{
+        position:absolute;
+        top:-15%;
+        left:30%;
+    }
+    .advert1{
+        height:60%;
+    }
+    .advert{
+        height:60%;  
+        margin-bottom:10%;
+    
     }
 }
 @media screen and (min-width: 768px){
