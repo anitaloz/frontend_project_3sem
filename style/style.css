@@ -836,7 +836,7 @@ div.num{
     list-style-type:none ;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
     #logo { 
         margin-top:0px;
         position:absolute;
@@ -977,15 +977,16 @@ div.num{
         padding-right:0 !important
     }
     div.cap{
-        margin-left:8%;
-        padding:0;
+        max-width:1220px;
+        margin:auto;
     }
     header{
         min-height:650px;
     }
     .header-center{
         display:flex;
-        margin-left:12%;
+        max-width:1220px;
+        margin:auto;
         margin-top:8.3%;
     }
     div.adv{
@@ -1071,33 +1072,35 @@ div.num{
     div.first-space{
         background-color:white;
         color:black;
+        margin:auto;
         margin-top: 100px;
+        max-width: 1220px
+        
     }
     #first-space-text{
-        max-width: 900px;
-        padding-left: 12%;
-        padding-right:12%;
+        max-width: 500px;
+        margin:0;
+
     }
     div.first-space p{
         font-family: 'Montserrat';
         font-style: normal;
         font-size: 16px;
         line-height: 22px;
+        color:rgb(73, 73, 73);
     }
     div.first-space h1{
-        max-width: 900px;
+        max-width: 600px;
         font-family: Montserrat_b;
         font-style: normal;
         font-size: 42px;
         line-height: 51px;
-        padding-left: 12%;
-        padding-right:12%;
     }
     div.first-space div.cells {
+        margin-top:3%;
         display:flex;
         flex-direction: column;
-        padding-left: 12%;
-        padding-right:12%;
+        padding-left:0;
     }
     div.first-space div.cells div.first-quatro{
         display:flex;
@@ -1539,13 +1542,13 @@ div.num{
         left:10vw;
         right: 10vw; */
         margin-top:3%;
-        max-width:1200px;
+        max-width:1220px;
     }
     header div.cap{
         display:flex;
         margin-left: auto;
         margin-right:auto;
-        max-width:1200px;
+        max-width:1220px;
     }
 
     .third-space .first-duo{
@@ -1608,10 +1611,8 @@ div.num{
         padding-right:18%;
     }
     #first-space-text{
-        max-width: 30%;
         padding:0;
-        margin-left: 18%;
-        margin-right:18%;
+
     }
     div.first-space p{
         font-family: 'Montserrat';
@@ -1620,20 +1621,16 @@ div.num{
         line-height: 22px;
     }
     div.first-space h1{
-        max-width: 40%;
         font-family: Montserrat_b;
         font-style: normal;
         font-size: 42px;
         line-height: 51px;
         padding:0;
-        margin-left: 18%;
-        margin-right:18%;
+
     }
     div.first-space div.cells {
         display:flex;
         flex-direction: column;
-        padding-left: 18%;
-        padding-right:18%;
     }
 
 }
