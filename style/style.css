@@ -129,7 +129,11 @@ header{
     align-items: center;
     position: relative;
     color:white;
-    background-color: rgba(0, 0, 0, 0.795);
+    background-color: rgba(0, 0, 0, 0.897);
+}
+#druplicon{
+    position:absolute;
+    width:100%;;
 }
 header p{
     color:rgba(204, 204, 204);
@@ -168,9 +172,8 @@ div.ad div.second_trio{
 
 }
 .advert1{
-    height:140px;
+    height:25%;
     border-left:5px solid #F14D34;
-    /* padding-bottom: 5px; */
     padding:10px;
     padding-top:0;
     font-size: 12px;
@@ -178,7 +181,7 @@ div.ad div.second_trio{
     width:80%;
 }
 .advert{
-    height:140px;
+    height:25%;
     border-left:5px solid #F14D34;
     padding:10px;
     font-size: 12px;
@@ -946,7 +949,10 @@ div.num{
         padding-left: 10px;
         font-size:18px;
     }
-    
+    #druplicon{
+        position:absolute;
+        width:fit-content;
+    }
     header div.cap nav ul li ul li{
         width:100%;
         border:1px solid rgba(0,0,0,0,.1);
@@ -1364,8 +1370,8 @@ div.num{
     }
 
     .sixth-space{
-        padding-left: 14%;
-        padding-right: 14%;
+        padding-left: 18%;
+        padding-right: 18%;
     }
     div.sixth-space button{
         margin-left:0;
@@ -1558,8 +1564,8 @@ div.num{
         width:50%
     }
     .sixth-space{
-        padding-left: 18%;
-        padding-right: 18%;
+        padding-left: 20%;
+        padding-right: 15%;
     }
     .tarifs-advert{
         display:flex;
