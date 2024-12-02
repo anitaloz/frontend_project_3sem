@@ -1535,8 +1535,8 @@ div.num{
     .header-center{
         display:flex;
         margin:auto;
-        padding-left: auto;
-        padding-right:auto;
+        margin-left: auto;
+        margin-right:auto;
         /* position:absolute;
         left:10vw;
         right: 10vw; */
