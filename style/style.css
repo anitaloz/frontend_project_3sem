@@ -1515,8 +1515,8 @@ div.num{
     .header-center{
         display:flex;
         margin:auto;
-        padding-left: 13%;
-        padding-right:13%;
+        padding-left: 18%;
+        padding-right:18%;
         /* position:absolute;
         left:10vw;
         right: 10vw; */
@@ -1524,8 +1524,8 @@ div.num{
     }
     header div.cap{
         display:flex;
-        margin-left: 13%;
-        margin-right:13%;
+        margin-left: 18%;
+        margin-right:18%;
     }
 
     .third-space .first-duo{
