@@ -794,8 +794,16 @@ div.num{
 }
 
 .bottom{
-    background: url(../img/footer-bg.png) no-repeat center/cover;
     width: 100%;
+    background: url(../img/black_square_support.png) no-repeat center/cover;
+}
+.bottom2{
+    background: url(../img/D-flying@2x.png) center top no-repeat;
+    background-size: 25%;
+}
+.bottom3{
+    background: url(../img/D.png) right bottom no-repeat;
+    background-size: 30%;
 }
 .b-form label, .input-field{
     width: 100%;
