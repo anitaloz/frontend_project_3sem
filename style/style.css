@@ -1256,7 +1256,9 @@ div.num{
         margin:0;
         text-align: left;
     }
-
+    .cases h2:hover{
+       text-decoration:underline;
+    }
     .third-space{
         width:100%;
         height:max-content;
