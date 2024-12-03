@@ -1,59 +1,60 @@
-$(document).ready(function(){
+
+/*node browser: true */ /*global $ */ /*global alert */
+/*global updateContent */ /*node long: true */
+$(document).ready(function () {
     $(".slider").slick({
+        arrows: false,
+        autoplay: true,
         infinite: true,
-        arrows : false,
         responsive: [{
             breakpoint: 900,
             settings: {
+                autoplay: true,
                 infinite: true,
                 slidesToShow: 2.7,
-                autoplay: true,
-                speed: 2000,
+                speed: 2000
             }
         }],
-        
         slidesToScroll: 1,
         slidesToShow: 5,
-        autoplay: true,
-        speed: 2000,
+        speed: 2000
     });
 });
-$(document).ready(function(){
+$(document).ready(function () {
     $(".slider2").slick({
+        arrows: false,
+        autoplay: true,
         infinite: true,
-        arrows : false,
         responsive: [{
             breakpoint: 900,
             settings: {
+                autoplay: true,
                 infinite: true,
                 slidesToShow: 2.7,
-                autoplay: true,
-                speed: 2000,
+                speed: 2000
             }
         }],
-        
         slidesToScroll: 2,
         slidesToShow: 5,
-        autoplay: true,
-        speed: 2000,
+        speed: 2000
     });
 });
 
 $(document).ready(function () {
-    $('.single-item').slick({
-        dots: false,
-        infinite: true,
-        nextArrow: document.querySelector('#my-arrow-next'),
-        prevArrow: document.querySelector('#my-arrow-prev'),
-        speed: 300,
-        slidesToShow: 1,
-        slidesToScroll: 1,
+    $(".single-item").slick({
         adaptiveHeight: true,
+        cssEase: "linear",
+        dots: false,
         fade: true,
-        cssEase: 'linear'
+        infinite: true,
+        nextArrow: document.querySelector("#my-arrow-next"),
+        prevArrow: document.querySelector("#my-arrow-prev"),
+        slidesToScroll: 1,
+        slidesToShow: 1,
+        speed: 300
     });
 
-    let n=1;
+    let n = 1;
     const prevbtn = document.getElementById("my-arrow-prev");
     const nextbtn = document.getElementById("my-arrow-next");
     let num = document.getElementById("slide-current-number");
@@ -62,16 +63,16 @@ $(document).ready(function () {
         if (n === 1) {
             n = 8;
         } else {
-            n -=1;
+            n -= 1;
         }
-        num.innerHTML = '0' + n;
+        num.innerHTML = "0" + n;
     });
     nextbtn.addEventListener("click", function () {
         if (n === 8) {
             n = 1;
         } else {
-            n +=1;
+            n += 1;
         }
-        num.innerHTML = '0' + n;
+        num.innerHTML = "0" + n;
     });
 });
