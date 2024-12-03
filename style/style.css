@@ -870,7 +870,9 @@ div.num{
     margin: 2px;
     list-style-type:none ;
 }
-
+#inp:hover{
+    background-color:#f40d0d;
+}
 @media screen and (min-width: 768px) {
     #logo { 
         margin-top:0px;
