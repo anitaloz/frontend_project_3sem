@@ -261,14 +261,6 @@ button {
     top:3330px;
 }
 
-.ghost{
-    width:100%;
-    z-index:0;
-    position:absolute;
-    top:3500px;
-
-}
-
 .second-space{
     padding:0;
     position:relative;
@@ -364,6 +356,16 @@ div.second-space h1{
     width:100%;
     margin-left:-10%;
 }
+.ghost{
+    width:100%;
+    z-index:0;
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin-top:inherit;
+    margin-left:inherit;
+}
+
 .third-space h1{
     font-size: 30px;
     font-family: Montserrat_b;
@@ -603,6 +605,7 @@ div.sixth-space button{
 .second-case{
     margin-top:10px;
     margin-bottom:10px;
+    position: relative;
 }
 .second-case img{
     width:100%;
@@ -610,6 +613,21 @@ div.sixth-space button{
     height:250px;
     border-radius: 5px;
     position:relative;
+    
+}
+.second-case::after{
+    width:100%;
+    object-fit: cover;
+    height:250px;
+    border-radius: 5px;
+    position:relative;
+    background: linear-gradient(
+        180.0deg,
+        #ffffff 10.9019%,
+        #949494 60.57%,
+        #1b1b1bc5 90%
+    );
+
 }
 .second-case h2{
     position:absolute;
@@ -1056,49 +1074,47 @@ div.num{
         margin-top:55px;
     }
     div.ad{
-        margin-left: 20px;
-        /* margin-right:130px; */
+        margin-left: 0;
         display:flex;
-        flex-direction: column;
+        flex-direction: row;
         margin-top:5%;
-        /* max-width: 593px; */
     }
     div.ad div.first_trio{
         display:flex;
-        flex-direction: row;
+        flex-direction: column;
         max-width: none;
-        height:50%;
+        height:30%;
         margin-top:0px;
         margin-bottom:15px;
     }
     div.ad div.second_trio{
         display:flex;
-        flex-direction: row;
-        height:50%;
+        flex-direction: column;
+        height:30%;
         margin-top:0px;
     }
     .advert1 img{
         position:absolute;
         top:-13%;
-        left:30%;
+        left:40%;
 
     }
     div.advert1 h1{
         float:none;
     }
     .advert1{
-        height:80%;
+        min-height:100%;
     }
     .advert{
-        height:80%;  
+        min-height:100%;  
     
     }
     .advert p{
-        max-width:80%;
+        max-width:100%;
     }
     .advert1 p{
         margin-bottom: 0;
-        max-width:80%;
+        max-width:100%;
     }
 
     /* Первое поле */
@@ -1167,14 +1183,6 @@ div.num{
         left:0;
     }
     
-    .ghost{
-        z-index:0;
-        position:absolute;
-        top:2200px;
-        right:0;
-        width:50%;
-    
-    }
     div.second-space{
         margin-top:116px;
         width:100%;
@@ -1240,7 +1248,9 @@ div.num{
     .third-space{
         width:100%;
         height:max-content;
+        position:relative;
     }
+    
     .third-space .text{
         padding:0;
         z-index:1;
@@ -1259,6 +1269,14 @@ div.num{
         width:660px;
         margin:0;
     }
+    .third-space .ghost{
+        z-index:0;
+        position:absolute;
+        left:40%;
+        top:-300px;
+        width:60%;
+    }
+    
     /* .third-space{
         position:none;
     } */
@@ -1551,7 +1569,7 @@ div.num{
         text-align: center;
         max-width: 50%;
         margin:0 auto;
-        margin-top:10%;
+        padding-top:200px;
     }
 
     .eigth-space1 .text h1{
@@ -1575,7 +1593,50 @@ div.num{
         margin-top:3%;
         max-width:1220px;
     }
-
+    div.ad{
+        margin-left: 20px;
+        /* margin-right:130px; */
+        display:flex;
+        flex-direction: column;
+        margin-top:5%;
+        /* max-width: 593px; */
+    }
+    div.ad div.first_trio{
+        display:flex;
+        flex-direction: row;
+        max-width: none;
+        height:50%;
+        margin-top:0px;
+        margin-bottom:15px;
+    }
+    div.ad div.second_trio{
+        display:flex;
+        flex-direction: row;
+        height:50%;
+        margin-top:0px;
+    }
+    .advert1 img{
+        position:absolute;
+        top:-13%;
+        left:30%;
+    }
+    div.advert1 h1{
+        float:none;
+    }
+    .advert1{
+        min-height:80%;
+    }
+    .advert{
+        min-height:80%;  
+    
+    }
+    .advert p{
+        max-width:80%;
+    }
+    .advert1 p{
+        margin-bottom: 0;
+        max-width:80%;
+    }
     .third-space .first-duo{
         display:flex;
         flex-direction: row;
@@ -1589,6 +1650,7 @@ div.num{
         margin:auto;
         padding-left:3%;
     }
+    
     .third-space img{
         position:absolute;
         top:28px;
@@ -1598,6 +1660,16 @@ div.num{
         order:0;
         width:660px;
         margin:0;
+    }
+    .third-space{
+        position:relative;
+    }
+    .third-space .ghost{
+        z-index:0;
+        position:absolute;
+        left:40%;
+        top:-50%;
+        width:60%;
     }
     div.sixth-space button{
         margin-left:33%;
@@ -1672,6 +1744,19 @@ div.num{
     font-style: normal;
     font-display: swap;
 }
+
+.b-reviews{
+    background-image: url("../img/right-quote-sign.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y:top;
+    background-size: 20%;
+}
+
+.b-reviews h2{
+    text-align: center;
+    padding-top: 30px;
+}
 .view-slider::before{
     content: "";
     display: block;
@@ -1687,6 +1772,7 @@ div.num{
     top: 68px;
     left: 7vw;
     right: 7vw;
+    margin-top: 30px;
 }
 .view-slider::after{
     content: "";
@@ -1703,7 +1789,7 @@ div.num{
     top: 48px;
     left: 10vw;
     right: 10vw;
-    
+    margin-top: 30px;
 }
 .b-slider{
     background-color: rgb(255, 255, 255);
@@ -1801,16 +1887,23 @@ div.num{
     .b-reviews{
         padding-left:18%;
         padding-right:18%;
-        top:80px;
+        top:0;
+        padding-top:80px;
         bottom:80px;
     }
+    .b-reviews h2{
+        padding:0;
+    }
+
     .view-slider::before{
         left:25%;
         right:25%;
+        margin-top:80px;
     }
     .view-slider::after{
         left:30%;
         right:30%;
+        margin-top:80px;
     }
     
 }
