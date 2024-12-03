@@ -1,14 +1,13 @@
-
 /*node browser: true */ /*global $ */ /*global alert */
 /*global updateContent */
 window.addEventListener("DOMContentLoaded", function () {
 
-    let but=document.getElementById("tarif");
+    let but = document.getElementById("tarif");
     but.addEventListener("click", function () {
-        let element=document.getElementById("idforbutton");
-        element.scrollIntoView({behavior: "smooth"}); 
+        let element = document.getElementById("idforbutton");
+        element.scrollIntoView({behavior: "smooth"});
         but.classList.remove("active");
-    })
+    });
 
     window.onload = function () {
         const storedFio = localStorage.getItem("field-fio");
@@ -23,7 +22,8 @@ window.addEventListener("DOMContentLoaded", function () {
             document.getElementsByName("field-email")[0].value = storedEmail;
         }
         if (storedMessage) {
-            document.getElementsByName("field-message")[0].value = storedMessage;
+            document.getElementsByName("field-message")[0].value =
+            storedMessage;
         }
         if (storedNumber) {
             document.getElementsByName("field-number")[0].value = storedNumber;
