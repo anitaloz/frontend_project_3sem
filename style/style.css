@@ -773,7 +773,7 @@ div.sixth-space button{
 }
 
 .active {
-    border: 2px solid rgb(247, 103, 78);
+    border: 3.5px solid rgb(247, 103, 78);
 }
 .active-acc-text{
     color: red;
@@ -1439,9 +1439,8 @@ div.num{
     }
 
     .seventh-space{
-        padding-left: 18%;
-        padding-right: 18%;
-
+        max-width: 1000px;
+        padding:50px;
     }
 
 
@@ -1543,7 +1542,7 @@ div.num{
         
      }
     .FAQ{
-        width:65%;
+        max-width:1200px;
         margin:0 auto;
         margin-bottom:5%;
     }
@@ -1675,6 +1674,12 @@ div.num{
         margin-left:33%;
     }
 
+    .seventh-space{
+        padding:0;
+        max-width: inherit;
+        padding-left:18%;
+        padding-right:18%;
+    }
     .eigth-space2 .text{
         padding-left:0px;
         text-align: center;
