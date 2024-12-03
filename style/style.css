@@ -1573,6 +1573,7 @@ div.num{
         font-size: 20px;
         font-family: Montserrat_b;
         padding-left:20px;
+        cursor:pointer;
     }
     .FAQ .num{
         font-size:16px;
