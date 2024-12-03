@@ -922,6 +922,9 @@ div.num{
     .logo-menu{
         background-color:#00000000;
     }
+    div.cap ul li a:hover{
+        color:#f40d0d;
+    }
     div.cap ul li a{
         position: relative;
         color: #ff6a00;
