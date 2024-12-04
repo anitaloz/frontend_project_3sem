@@ -692,12 +692,13 @@ div.sixth-space button{
 .eigth-space1 .text{
     padding-left:15px;
     text-align: left;
-    padding-top:10%;
+    padding-top:25%;
 }
 
 .eigth-space1 .text h1{
     font-family: Montserrat_b;
     font-size:30px;
+    text-align: center;
 }
 
 .slick-track{
@@ -1583,6 +1584,7 @@ div.num{
         text-align: center;
         max-width: 50%;
         margin:0 auto;
+        padding-top:10%;
     }
 
     .eigth-space1 .text h1{
@@ -1770,7 +1772,10 @@ div.num{
     background-position-y:top;
     background-size: 20%;
 }
-
+.block-name{
+    text-align: center;
+    font-family: Montserrat_b;
+}
 .b-reviews h2{
     text-align: center;
     padding-top: 30px;
@@ -1779,7 +1784,7 @@ div.num{
     content: "";
     display: block;
     background: #ffffffd4;
-    opacity: .5;
+    opacity: .3;
     border: 1px solid rgba(127, 127, 127, 0.589);
     box-sizing: border-box;
     box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.729);
@@ -1788,15 +1793,15 @@ div.num{
     z-index: 5;
     bottom: 0;
     top: 68px;
-    left: 7vw;
-    right: 7vw;
+    left: 8vw;
+    right: 8vw;
     margin-top: 30px;
 }
 .view-slider::after{
     content: "";
     display: block;
     background: #ffffffd4;
-    opacity: .5;
+    opacity: .2;
     border: 1px solid rgba(127, 127, 127, 0.589);
     box-sizing: border-box;
     box-shadow: 0px 4px 60px rgba(162, 162, 162, .25);
@@ -1804,20 +1809,19 @@ div.num{
     position: absolute;
     z-index: 4;
     bottom: 0;
-    top: 48px;
-    left: 10vw;
-    right: 10vw;
+    top: 51px;
+    left: 12vw;
+    right: 12vw;
     margin-top: 30px;
 }
 .b-slider{
     background-color: rgb(255, 255, 255);
-    border-radius: 8px;
-    border: 2px solid #dfdede;
-    box-shadow: 0px 10px 15px rgba(151, 152, 154, 0.625);
+    border-radius: 5px;
+    border: 1.5px solid #cecdcd;
+    box-shadow: 0px 10px 50px rgba(127, 127, 127, 0.589);
     z-index: 10;
     position:relative;
     align-items: center;
-    
 }
 .b-slider .slide{
     border-bottom: 2px solid #dfdede;
@@ -1892,15 +1896,17 @@ div.num{
 
     .b-slider{
         background-color: rgb(255, 255, 255);
-        border-radius: 8px;
-        border: 2px solid #dfdede;
-        box-shadow: 0px 10px 15px rgba(151, 152, 154, 0.625);
+        border-radius: 5px;
+        border: 1px solid #cecdcd;
+        box-shadow: 0px 15px 50px rgba(151, 152, 154, 0.625);
         z-index: 10;
         position:relative;
         align-items: center;
     }
     .block-name{
         text-align: center;
+        font-family: Montserrat_b;
+        margin-bottom: 120px;
     }
     .b-reviews{
         padding-left:18%;
@@ -1916,12 +1922,12 @@ div.num{
     .view-slider::before{
         left:25%;
         right:25%;
-        margin-top:80px;
+        margin-top:135px;
     }
     .view-slider::after{
         left:30%;
         right:30%;
-        margin-top:80px;
+        margin-top:120px;
     }
     
 }
