@@ -57,7 +57,7 @@ div.adv p{
     padding:0;
 }
 .logo-menu{
-    background-color: #0c0c0c;
+    background-color: #000000;
     width: 100%;
 }
 #menu{
@@ -70,11 +70,12 @@ div.adv p{
     text-align:left;
     /* background-color:#0c0c0c; */
     padding:10px;
+    padding-left: 20px;
     color:rgb(224, 224, 224);  
 }
 .m{
     display: none;
-    background-color:#000000c2;
+    background-color:#202020;
 }
 div.cap ul 
 {
@@ -85,7 +86,7 @@ div.cap nav{
     width:100%;
 }
 div.cap ul li{
-    background-color: #0c0c0c;
+    background-color: #000000;
     margin-top: 0.8px;
     margin-bottom:0.8px;
 }
@@ -99,10 +100,10 @@ div.cap ul li{
     background-color: none;
 }
 #admin1{
-    background-color: #0c0c0c;
+    background-color: #000000;
 }
 #about_us2{
-    background-color: #0c0c0c;
+    background-color: #000000;
 }
 #admin{
     background: unset;
