@@ -852,6 +852,9 @@ div.num{
     color: #9f9e9e;
 }
 
+.b-bottom{
+    border-top:1px solid #9f9e9e;
+}
 
 .footer-body ul li img{
     margin: 5px;
