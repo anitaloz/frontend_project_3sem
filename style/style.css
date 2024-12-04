@@ -180,7 +180,7 @@ div.ad div.second_trio{
 
 }
 .advert1{
-    height:25%;
+    height:30%;
     border-left:5px solid #F14D34;
     padding:10px;
     padding-top:0;
@@ -189,7 +189,7 @@ div.ad div.second_trio{
     width:80%;
 }
 .advert{
-    height:25%;
+    height:30%;
     border-left:5px solid #F14D34;
     padding:10px;
     font-size: 12px;
@@ -794,8 +794,16 @@ div.num{
 }
 
 .bottom{
-    background: url(../img/footer-bg.png) no-repeat center/cover;
     width: 100%;
+    background: url(../img/black_square_support.png) no-repeat center/cover;
+}
+.bottom2{
+    background: url(../img/D-flying@2x.png) center top no-repeat;
+    background-size: 25%;
+}
+.bottom3{
+    background: url(../img/D.png) right bottom no-repeat;
+    background-size: 30%;
 }
 .b-form label, .input-field{
     width: 100%;
@@ -843,9 +851,6 @@ div.num{
     color: #9f9e9e;
 }
 
-.b-bottom{
-    border-top:1px solid #9f9e9e;
-}
 
 .footer-body ul li img{
     margin: 5px;
@@ -861,7 +866,9 @@ div.num{
     margin: 2px;
     list-style-type:none ;
 }
-
+#inp:hover{
+    background-color:#f40d0d;
+}
 @media screen and (min-width: 768px) {
     #logo { 
         margin-top:0px;
@@ -912,6 +919,9 @@ div.num{
     }
     .logo-menu{
         background-color:#00000000;
+    }
+    div.cap ul li a:hover{
+        color:#f40d0d;
     }
     div.cap ul li a{
         position: relative;
@@ -1244,7 +1254,9 @@ div.num{
         margin:0;
         text-align: left;
     }
-
+    .cases h2:hover{
+       text-decoration:underline;
+    }
     .third-space{
         width:100%;
         height:max-content;
@@ -1320,7 +1332,9 @@ div.num{
         padding-top:5%;
         padding-bottom:5%;
     }
-
+    #tarif:hover{
+        background-color:#f40d0d;
+    }
     div.tarif-adv h1{
         margin-bottom: 15%;
         font-family: Montserrat_b;
@@ -1557,6 +1571,7 @@ div.num{
         font-size: 20px;
         font-family: Montserrat_b;
         padding-left:20px;
+        cursor:pointer;
     }
     .FAQ .num{
         font-size:16px;
@@ -1568,7 +1583,6 @@ div.num{
         text-align: center;
         max-width: 50%;
         margin:0 auto;
-        padding-top:200px;
     }
 
     .eigth-space1 .text h1{
@@ -1578,7 +1592,6 @@ div.num{
     .eigth-space1 .text p{
         text-align: center;
     }
-
 
 
 }
