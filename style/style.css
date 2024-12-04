@@ -851,10 +851,6 @@ div.num{
     color: #9f9e9e;
 }
 
-.b-bottom{
-    border-top:1px solid #9f9e9e;
-    bottom:5vw;
-}
 
 .footer-body ul li img{
     margin: 5px;
@@ -1596,11 +1592,6 @@ div.num{
     .eigth-space1 .text p{
         text-align: center;
     }
-
-    .b-bottom{
-    border-top:1px solid #9f9e9e;
-    bottom:0;
-}
 
 
 }
