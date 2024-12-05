@@ -96,11 +96,9 @@ div.cap ul li{
 
 .navbar2 li{
     padding-left:15px;
-    background-color: none;
 }
 .navbar3 li{
     padding-left:15px;
-    background-color: none;
 }
 #admin1{
     background-color: #000000;
@@ -1048,7 +1046,7 @@ div.num{
     }
     header div.cap nav ul li ul li{
         width:100%;
-        border:1px solid rgba(0,0,0,0,.1);
+        border:1px solid rgba(0,0,0,0,);
         padding-left:20px;
         padding-right:20px;
     }
@@ -1340,7 +1338,7 @@ div.num{
         flex-direction: column;
     }
     .third-space .cells p{
-        margin: 20 px auto;
+        margin:0 auto;
         padding-left:20px;
         padding-right:20px;
         border-left: 3px solid rgba(241, 77, 52, 1);
@@ -2007,7 +2005,6 @@ div.num{
 .b-slider .slick-list.dragging
 {
     cursor: pointer;
-    cursor: hand;
 }
 
 .b-slider .slick-slider .slick-track,
