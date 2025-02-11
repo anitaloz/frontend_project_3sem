@@ -32,6 +32,26 @@ void solve2(double a, double b, double c) {
 	if (d < 0) cout << "решений" << endl;
 }
 
+void solve3(double a, double b, double c) {
+	double d = pow(b, 2) - 4 * a * c;
+	cout.precision(11);
+	if (d > 0) {
+		double x1 = ((-1) * b + sqrt(pow(b, 2) - 4 * a * c)) / (2 * a);
+		double x2 = c / (a * x1);
+		cout << fixed << "x1:" << x1 << " " << "x2:" << x2 << endl;
+	}
+	if (d == 0) {
+		double x = -b / (2 * a);
+		cout << "x: " << x << endl;
+	}
+	if (d < 0) {
+		double x1 = (-b) / 2 * a;
+		double x2 = -sqrt(abs(d)) / 2 * a;
+		cout << fixed << "x1:" << x1 <<"+" << x2 <<"i";
+		
+	}
+}
+
 int main() {
 	setlocale(LC_ALL, "Ru");
 	double a, b, c, x;
@@ -46,5 +66,10 @@ int main() {
 	solve1(a, b, c);
 	cout << endl;
 	solve2(a, b, c);
+	cout << endl;
+	a = 1;
+	b = 2;
+	c = 5;
+	solve3(a, b, c);
 
 }
